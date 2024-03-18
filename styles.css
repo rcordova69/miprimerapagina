@@ -1,0 +1,198 @@
+a{
+    color: white;
+}
+
+h2{
+    color: white;
+    background-color: #2D3185;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    font-size: 20px;
+    padding: 15px;
+}
+img{
+    border: 5px solid beige;
+}
+p{
+    color: #2D3185;
+}
+
+#seccion-principal{
+    border: 5px solid #2D3185;
+}
+
+.seccion-1{
+    padding: 2em;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.seccion-2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.seccion-2 img{
+    width: 100%;
+}
+
+.seccion-3{
+    background-color: beige;
+    padding: 2em;
+    display: flex;
+}
+
+.acerca-de p{
+    font-size: 30px;
+}
+
+.acerca-de h2{
+    width: 300px;
+    font-size: 50px;
+}
+
+.form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    background-color: #2D3185;
+    color: beige;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario { 
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input [type="email"]{
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  /* ------------- Media Query para pantallas de más de 700px de resolución ------------- */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  .form-row textarea {
+      width: 250px;
+    }
+
+    .form-row button {
+        font-size: 16px;
+        font-weight: bold;
+      
+      
+        color: beige;
+        background-color: #2D3185;
+      
+      
+        border: none;
+        border-radius: 3px;
+      
+      
+        padding: 10px 40px;
+        cursor: pointer;
+      }
+      
+      
+      .form-row button:hover {
+        background-color: #76aeed;
+      }
+      
+      
+      .form-row button:active {
+        background-color: #2D3185;
+      }
+      
+      
+      /* ------------- Para Pantallas de más de 700px ------------- */
+      
+      
+      .form-row button {
+          margin-left: 120px; }
